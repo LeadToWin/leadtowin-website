@@ -155,7 +155,7 @@ function validateForm() {
     })
     .catch(function (error) {
       document.getElementById("error-msg").innerHTML =
-        "<div class='alert alert-success success_message'>Something went wrong! Please email us directly at <strong>community@leadtowin.ca</strong></div>";
+        "<div class='alert alert-danger error_message'>Something went wrong! Please email us directly at <strong>community@leadtowin.ca</strong></div>";
       fadeIn();
     });
   return false;
