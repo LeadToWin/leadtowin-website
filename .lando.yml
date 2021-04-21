@@ -1,0 +1,10 @@
+name: leadtowin
+recipe: lamp
+config:
+  webroot: .
+  services:
+    mailhog:
+      type: mailhog:v1.0.0
+      portforward: true
+      hogfrom:
+        - appserver
