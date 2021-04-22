@@ -39,13 +39,14 @@ if($_POST) {
     }
       
 
-    $recipient = "community@leadtowin.ca";
+    $recipient = "leadtowin@globalsers.org";
+    $from = "web@leadtowin.ca";
       
     $email_body .= "</div>";
  
     $headers  = 'MIME-Version: 1.0' . "\r\n"
     .'Content-type: text/html; charset=utf-8' . "\r\n"
-    .'From: ' . $email . "\r\n";
+    .'From: ' . $from . "\r\n";
 
       
     if(mail($recipient, $subject, $email_body, $headers)) {
