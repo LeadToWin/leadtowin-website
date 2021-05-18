@@ -27,6 +27,109 @@ body {
   font-size: 14.4px;
 }
 
+.ourworks-box{
+	width: 60%;
+	justify-content: center;
+	text-align: center;
+}
+
+.our-works-head{
+	font-size: 30px;
+	font-weight: 400;
+	color: black;
+}
+.introduce{
+	height: 250px;
+	background-color:white;
+	box-shadow: 0 3px 10px #002e043a;
+	border-bottom: 4px solid #fffdf9;
+	color: black;
+}
+
+.introduce:hover{
+	box-shadow: 0 3px 15px #5d5e5d3a;
+	border-bottom: 4px solid #74A728;
+	color: black;
+	text-decoration: none;
+}
+.flex-column-1{
+	height: 70%;
+	width: 100%;
+
+}
+.flex-column-2{
+	height: 30%;
+	width: 100%;
+	align-items:center;
+}
+.text-gray{
+	color: gray;
+}
+
+.event-card{
+padding-top: 1.5rem;
+padding-left: 1rem;
+padding-right: 5rem;
+font-weight: bolder;
+font-size: large;
+color: #74A728;
+
+}
+
+.event-card-text{
+  padding-top: 2rem;
+  padding-left: 1rem;
+  padding-right: 5rem;
+  font-weight: bold;
+  font-size: large;
+  color: Black;
+
+}
+
+.event-card-img{
+width: 100%;
+}
+
+.pic{
+    height: 70px;
+    width: 70px;
+    margin-left: 20px;
+    border-radius: 50%;
+    transition: all .2s ease-in-out;
+}
+
+.introduce:hover .pic{
+	transform: scale(1.1);
+}
+.carousel-indicators .active{
+	background-color: #74A728;
+}
+.carousel-indicators li{
+	background-color: #d1ffc8;
+}
+.carousel-indicators{
+	bottom: -50px;
+}
+.p1{
+	background-image: url("http://lorempixel.com/150/150/nature");
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: contain;
+}
+.p2{
+	background-image: url("http://lorempixel.com/150/150/people");
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+
+}
+.p3{
+	background-image: url("http://lorempixel.com/150/150/cats");
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: contain;
+}
+
 a {
   text-decoration: none !important;
   outline: none;
