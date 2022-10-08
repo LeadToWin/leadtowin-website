@@ -370,7 +370,7 @@ h6 {
 }
 
 .section {
-  padding: 100px 0px;
+  padding: 40px 0px;
 }
 
 .icon {
@@ -960,7 +960,7 @@ button:focus {
 }
 
 .feature-content {
-  padding: 134px 0px;
+  padding: 85px 0px;
 }
 
 .video-button .video-play-icon {
@@ -1248,7 +1248,7 @@ button:focus {
 }
 
 .brand-section {
-  padding: 60px 0px;
+  padding: 10px 0px;
 }
 
 .brand-section .client-image {
@@ -1267,7 +1267,7 @@ button:focus {
 }
 
 .footer {
-  padding: 80px 0px;
+  padding: 40px 0px;
 }
 
 .footer .footer-logo .logo-light {
